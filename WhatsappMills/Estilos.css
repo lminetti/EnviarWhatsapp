@@ -1,0 +1,234 @@
+﻿@font-face {
+    font-family: UbuntuRegular;
+    src: url(Fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: UbuntuItalic;
+    src: url(Fonts/Ubuntu-Italic.ttf);
+}
+
+@font-face {
+    font-family: UbuntuBold;
+    src: url(Fonts/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: UbuntuBoldItalic;
+    src: url(Fonts/Ubuntu-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: QuickSand;
+    src: url(Fonts/Quicksand_Bold.otf);
+}
+body {
+    margin: 0 auto;
+    background-color: #faf9f7;
+}
+.div1 {
+    width: 80%;
+    height: 80vh;
+    position:absolute;
+    left: 10%;
+    top: 10vh;
+    box-shadow: 0px 2px 4px 0px #c8c8c8;
+    background-color:#fff;
+}
+.titulo{
+    width:100%;
+    height:20vh;
+    text-align:center;
+    display:table;
+    font-family:UbuntuBold;
+    font-size:32px;
+    color:#000;
+}
+.titulo a{
+    display:table-cell;
+    vertical-align:middle;
+}
+.subtitulo{
+    width:100%;
+    height:10vh;
+    text-align:center;
+    display:table;
+    font-family:UbuntuBold;
+    font-size:18px;
+    color:#000;
+}
+.subtitulo a{
+    display:table-cell;
+    vertical-align:middle;
+}
+.textbox {
+    width: 60%;
+    margin-left: 20%;
+    height: 80px;
+    outline: none;
+    border: none;
+    background-color: #faf9f7;
+    box-shadow: 0px 2px 4px 0px #c8c8c8;
+    text-align: center;
+    color: #000;
+    transition: all 0.2s ease;
+    font-family: UbuntuRegular;
+    font-size: 22px;
+    border-radius: 6px;
+    border-bottom:2px solid #d09e68;
+}
+.textbox:hover{
+    background-color:#e2e2e2;
+    transition: all 0.2s ease;
+}
+.footer{
+    text-align:center;
+    width:100%;
+    height:auto;
+    position:absolute;
+    bottom:5vh;
+    width:90%;
+    left:5%;
+    cursor:pointer;
+}
+.boton {
+    width: 30%;
+    margin-left: 50%;
+    height: 60px;
+    font-family: UbuntuBold;
+    font-size: 22px;
+    color: #000;
+    background-color: #d09e68;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px 0px #c8c8c8;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.boton:hover{
+    background-color:#000;
+    color:#fff;
+    transition: all 0.2s ease;
+}
+@media all and (max-width: 1000px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1000px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 100px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 100px), only screen and (min-device-pixel-ratio: 2) and (max-width: 100px), only screen and (min-resolution: 192dpi) and (max-width: 100px), only screen and (min-resolution: 2dppx) and (max-width: 100px) {
+
+@font-face {
+    font-family: UbuntuRegular;
+    src: url(Fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: UbuntuItalic;
+    src: url(Fonts/Ubuntu-Italic.ttf);
+}
+
+@font-face {
+    font-family: UbuntuBold;
+    src: url(Fonts/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: UbuntuBoldItalic;
+    src: url(Fonts/Ubuntu-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: QuickSand;
+    src: url(Fonts/Quicksand_Bold.otf);
+}
+body {
+    margin: 0 auto;
+    background-color: #faf9f7;
+}
+.div1 {
+    width: 90%;
+    height: 90vh;
+    min-height:500px;
+    position:absolute;
+    left: 5%;
+    top: 5vh;
+    box-shadow: 0px 2px 4px 0px #c8c8c8;
+    background-color:#fff;
+}
+.titulo{
+    width:90%;
+    margin-left:5%;
+    height:20vh;
+    text-align:center;
+    display:table;
+    font-family:UbuntuBold;
+    font-size:32px;
+    color:#000;
+}
+.titulo a{
+    display:table-cell;
+    vertical-align:middle;
+}
+.subtitulo{
+    width:90%;
+    margin-left:5%;
+    height:10vh;
+    text-align:center;
+    display:table;
+    font-family:UbuntuBold;
+    font-size:18px;
+    color:#000;
+}
+.subtitulo a{
+    display:table-cell;
+    vertical-align:middle;
+}
+.textbox {
+    width: 80%;
+    margin-left: 10%;
+    height: 70px;
+    outline: none;
+    border: none;
+    background-color: #faf9f7;
+    box-shadow: 0px 2px 4px 0px #c8c8c8;
+    text-align: center;
+    color: #000;
+    transition: all 0.2s ease;
+    font-family: UbuntuRegular;
+    font-size: 22px;
+    border-radius: 6px;
+    border-bottom:2px solid #d09e68;
+}
+.textbox:hover{
+    background-color:#e2e2e2;
+    transition: all 0.2s ease;
+}
+.footer{
+    text-align:center;
+    width:100%;
+    height:auto;
+    margin-top:50px;
+    width:90%;
+    margin-left:2.5%;
+    cursor:pointer;
+}
+.boton {
+    width: 80%;
+    margin-left: 10%;
+    height: 60px;
+    font-family: UbuntuBold;
+    font-size: 18px;
+    color: #000;
+    background-color: #d09e68;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px 0px #c8c8c8;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.boton:hover{
+    background-color:#000;
+    color:#fff;
+    transition: all 0.2s ease;
+}
+
+}

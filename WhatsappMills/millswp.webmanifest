@@ -1,0 +1,16 @@
+﻿{
+  "name": "Whatsapp for Mills",
+  "short_name": "Whatsapp for Mills",
+  "description": "Servicio de Whatsapp desde sistemas Mills.",
+  "icons": [
+    {
+      "src": "Images/logo_bottom.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "Default.aspx",
+  "display": "fullscreen",
+  "theme_color": "#faf9f7",
+  "background_color": "#faf9f7"
+}
